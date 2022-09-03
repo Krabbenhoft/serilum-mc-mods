@@ -45,7 +45,7 @@ public class EntityEvent {
 		}
 		
 		if (!foundskull) {
-			ItemEntity newskull = new ItemEntity(entity.level, entity.getX(), entity.getY()+1, entity.getZ(), new ItemStack(Items.WITHER_SKELETON_SKULL, 1));
+			ItemEntity newskull = new ItemEntity(entity.level, entity.getX(), entity.getY()+1, entity.getZ(), new ItemStack(Items.WITHER_SKELETON_SKULL, 3));
 			drops.add(newskull);
 		}
 	}
